@@ -84,6 +84,12 @@
 			<artifactId>shiro-spring</artifactId>
 			<version>1.5.3</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.72</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
