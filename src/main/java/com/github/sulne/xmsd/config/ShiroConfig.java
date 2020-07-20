@@ -4,7 +4,6 @@ import org.apache.shiro.cache.MemoryConstrainedCacheManager;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
-import org.springframework.boot.web.servlet.server.Session;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
