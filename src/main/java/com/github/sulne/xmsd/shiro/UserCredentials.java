@@ -13,6 +13,7 @@ public class UserCredentials extends SimpleCredentialsMatcher {
 
 	public UserCredentials(CacheManager cacheManager) {
 		passwordRetryCache = cacheManager.getCache("passwordRetryCache");
+		passwordRetryCache.size();
 	}
 
 	//private static final Logger logger = LoggerFactory.getLogger(UserRealm.class);

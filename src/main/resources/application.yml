@@ -1,12 +1,17 @@
 server:
   port: 81
-
 spring:
   datasource:
     driver-class-name: oracle.jdbc.OracleDriver
     url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
     username: bjcmzyxy
     password: bjcmzyxy
-
 mybatis:
   type-aliases-package: com.github.sulne.xmsd.dao
+  configuration:
+    jdbc-type-for-null: 'null'
+logging:
+  level:
+    root: warn
+#    com.github.sulne.xmsd.dao: debug
+    com.github.sulne.xmsd: debug

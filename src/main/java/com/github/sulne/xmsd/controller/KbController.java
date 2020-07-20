@@ -1,4 +1,4 @@
-package com.github.sulne.xmsd.web;
+package com.github.sulne.xmsd.controller;
 
 import java.util.List;
 
@@ -19,7 +19,7 @@ import com.github.sulne.xmsd.service.KbService;
 
 @RestController
 @RequestMapping("/kb")
-public class KbWeb {
+public class KbController {
 
 	@Autowired
 	private KbService kbService;
