@@ -8,7 +8,6 @@ import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.junit.Test;
 
 public class Tools {
 	public static String UUID() {
@@ -41,10 +40,5 @@ public class Tools {
 			return true;
 		}
 		return false;
-	}
-
-	@Test
-	public void test() {
-		System.out.println(UUID());
 	}
 }
