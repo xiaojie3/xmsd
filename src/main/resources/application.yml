@@ -13,5 +13,4 @@ mybatis:
 logging:
   level:
     root: warn
-#    com.github.sulne.xmsd.dao: debug
     com.github.sulne.xmsd: debug

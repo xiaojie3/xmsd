@@ -39,15 +39,7 @@ public class KbController {
 		return ResponseEntity.status(HttpStatus.OK).body(kbService.getkb(xnxq, xh));
 	}
 
-	@PostMapping("/login")
-	public String login (String username, String password) {
-		System.out.println(username);
-		System.out.println(password);
-		Subject subject = SecurityUtils.getSubject();
-		UsernamePasswordToken usernamePasswordToken = new UsernamePasswordToken(username, password);
-		subject.login(usernamePasswordToken);
-		return "1";
-	}
+	
 
 	public Boolean test(String username) {
 		return username.equals(SecurityUtils.getSubject().getPrincipal());
