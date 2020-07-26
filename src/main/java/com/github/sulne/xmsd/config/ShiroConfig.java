@@ -53,7 +53,7 @@ public class ShiroConfig {
 		shiroFilter.setSecurityManager(securityManager());
 		shiroFilter.setLoginUrl("/login");
 		Map<String,String> map = new HashMap<>();
-		map.put("/kb/**","user");
+		map.put("/kb/**","anon");
 		map.put("/login","anon");
 		LinkedHashMap<String, Filter> filters = new LinkedHashMap<>();
 		filters.put("rest",new UserFilter());
